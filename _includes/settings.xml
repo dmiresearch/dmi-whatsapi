@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SMSAPPLISTGEN Startup settings -->
+<smsapp>
+  <settings>
+    <!-- Modem settings definition -->
+    <commport>COM14</commport>
+    <centerno>+25472344406</centerno>
+    <phoneno>0722345406</phoneno>
+    <pinno>0000</pinno>
+    <baudrate>11520</baudrate>
+    <!-- End modem settings definition -->
+    <!-- Alfresco & User email settings -->
+    <emailhost>localhost</emailhost>
+    <emailaddress>me@localhost.com</emailaddress>
+    <emailafresco>targetingInbox@targeting.com</emailafresco>
+    <alfrescousername>admin</alfrescousername>
+    <!-- System settings -->
+    <!-- Database settings -->
+    <dbdriver>MySQL Connector</dbdriver>
+    <dbhost>localhost</dbhost>
+    <dbport>3306</dbport>
+    <dbname>_dbsmsapp</dbname>
+    <dbusername>root</dbusername>
+    <dbpass>cvfHLs+SHpEQDC5mYYhMrA==</dbpass>
+    <!-- End database settings -->
+    <!-- Whatsapp Settings -->
+    <whatsappnumber>254723444063</whatsappnumber>
+    <whatsappimei>897654467721</whatsappimei>
+    <whatsapppass>ertyyayy@Y98uuu</whatsapppass>
+  </settings>
+</smsapp>
