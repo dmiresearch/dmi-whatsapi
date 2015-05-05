@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WhatsAPI
 
 Interface to WhatsApp Messenger
@@ -132,3 +133,7 @@ MIT - refer to the source code for the extra line.
 Team of Bahraini Developers.
 
 Ahmed Moh'd ([fb.com/ahmed.mhd](https://www.facebook.com/ahmed.mhd)) and Ali Hubail ([@hubail](https://twitter.com/hubail)) contributed to this release.
+=======
+# dmi-whatsapi
+A php application that retrieve inbound messages and media sent through Whatsapp. The application downloads the media messages to matching local directories. The application is based on the unofficial Whatsapp API from https://github.com/shirioko.
+>>>>>>> 657fb50e349972b5f88bd2bb7fdf23cfaaaaedfc
