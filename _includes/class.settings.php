@@ -24,16 +24,16 @@ class Settings {
     }
 
     public function getWhatsappNo() {
-        $this->whatsappNo = $this->settingsXML->settings[0]->whatsappnumber;
+        $this->whatsappNo = $this->settingsXML->settings[0]->whatsapp[0]->whatsappnumber;
         return $this->whatsappNo;
     }
     public function getWhatsappIMEI() {
-        $this->whatsappIMEI = $this->settingsXML->settings[0]->whatsappimei;
+        $this->whatsappIMEI = $this->settingsXML->settings[0]->whatsapp[0]->whatsappimei;
         return $this->whatsappIMEI;
     }
 
     public function getWhatsappPass() {
-        $this->whatsappPass = $this->settingsXML->settings[0]->whatsapppass;
+        $this->whatsappPass = $this->settingsXML->settings[0]->whatsapp[0]->whatsapppass;
         return $this->whatsappPass;
     }
 

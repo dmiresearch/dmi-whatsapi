@@ -5,10 +5,10 @@
 
 require_once('./../src/php/whatsprot.class.php');
 
-$userPhone        = '254711714306'; 
-$userIdentity     = '358507041038862';
-$userName         = 'chief'; 
-$password         = 'VYb3iBHPXRAS1NKjPVtecThzKAY='; 
+$userPhone        = '254711149849'; 
+$userIdentity     = '351737052166495';
+$userName         = 'Dmi'; 
+$password         = 'wV5K9kEy2VlKVvJjx9nULwW5HCs='; 
 $debug            = true;
 
 ?>

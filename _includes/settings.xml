@@ -24,8 +24,10 @@
     <dbpass>cvfHLs+SHpEQDC5mYYhMrA==</dbpass>
     <!-- End database settings -->
     <!-- Whatsapp Settings -->
-    <whatsappnumber>254723444063</whatsappnumber>
-    <whatsappimei>897654467721</whatsappimei>
-    <whatsapppass>ertyyayy@Y98uuu</whatsapppass>
+	<whatsapp>
+		<whatsappnumber>254723444063</whatsappnumber>
+		<whatsappimei>897654467721</whatsappimei>
+		<whatsapppass>ertyyayy@Y98uuu</whatsapppass>
+	</whatsapp>
   </settings>
 </smsapp>

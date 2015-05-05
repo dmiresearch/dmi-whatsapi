@@ -12,13 +12,14 @@
 		
 		function __construct()
 		{
-			$this->DBNAME = "_dbsmsapp";
+			$this->DBNAME = "msgapp";
 			$this->DBUSER = "root";
 			$this->DBHOST = "localhost";
 			$this->DBPASS = "";
 		}
 		function setDBCon()
 		{
+		
 			$con = new mysqli($this->DBHOST, $this->DBUSER, $this->DBPASS, $this->DBNAME);
 			if($con->connect_errno>0)
 			{
@@ -38,6 +39,7 @@
 		
 	}
 	$test = new Db();
+	//echo "Unable to connect to MySQL";
 	$test->setDBCon();
 	
 ?>
